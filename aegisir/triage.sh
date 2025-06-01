@@ -30,3 +30,7 @@ fi
 # Run Python diagnostics
 python3 aegisir/triage/collect_stats.py "$LOG_DIR"
 
+# Extract top CPU line and send Slack message
+TOP_PROCESS=$(head -n 2 "$LOG_DIR/cpu_processes.txt" | tail -n 1)
+python3 aegisir/triage/utils/slack_notifier.py "$TIMESTAMP" "$TOP_PROCESS"
+
