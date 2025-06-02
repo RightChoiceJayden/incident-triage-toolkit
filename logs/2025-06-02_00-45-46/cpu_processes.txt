@@ -1,0 +1,7 @@
+root        41 50.0  0.0   8436  4008 ?        R    00:45   0:00 ps aux
+root         1  0.2  0.6 110052 28056 ?        Ss   00:40   0:00 python3 aegisir/api/webhook.py
+root        43  0.0  0.0   2656  1404 ?        S    00:45   0:00 head -n 10
+root        42  0.0  0.0  19236  1544 ?        S    00:45   0:00 sort -nrk 3,3
+root        36  0.0  0.0   4212  2980 ?        S    00:45   0:00 /bin/bash ./aegisir/triage.sh
+root        26  0.0  0.0   4476  3284 pts/0    Ss+  00:43   0:00 bash
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND

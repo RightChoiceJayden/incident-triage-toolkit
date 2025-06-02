@@ -1,0 +1,11 @@
+top - 00:47:20 up 34 min,  0 user,  load average: 3.80, 4.04, 3.83
+Tasks:   4 total,   1 running,   3 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 50.0 us, 25.0 sy,  0.0 ni, 25.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   3919.4 total,    160.4 free,   2905.4 used,   1044.6 buff/cache     
+MiB Swap:   1024.0 total,    859.4 free,    164.5 used.   1013.9 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    1 root      20   0  110052  28056   8964 S   0.0   0.7   0:01.00 python3
+   26 root      20   0    4476   3284   2900 S   0.0   0.1   0:00.02 bash
+   55 root      20   0    4212   2984   2728 S   0.0   0.1   0:00.02 triage.sh
+   59 root      20   0    8848   4508   2588 R   0.0   0.1   0:00.01 top

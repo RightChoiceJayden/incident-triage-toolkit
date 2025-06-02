@@ -1,0 +1,1 @@
+$ docker ps\nCannot connect to the Docker daemon at unix:///Users/jaydeneatgood/.docker/run/docker.sock. Is the docker daemon running?

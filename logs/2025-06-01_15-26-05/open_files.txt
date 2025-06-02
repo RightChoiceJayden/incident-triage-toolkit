@@ -1,0 +1,100 @@
+$ lsof -nP | head -n 100\nCOMMAND     PID          USER   FD      TYPE             DEVICE  SIZE/OFF                NODE NAME
+loginwind   607 jaydeneatgood  cwd       DIR               1,15       704                   2 /
+loginwind   607 jaydeneatgood  txt       REG               1,15   3037168 1152921500312090532 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+loginwind   607 jaydeneatgood  txt       REG               1,15     67392            47939519 /Library/Preferences/Logging/.plist-cache.W41TpPwh
+loginwind   607 jaydeneatgood  txt       REG               1,15       688 1152921500312090603 /System/Library/CoreServices/loginwindow.app/Contents/Resources/InfoPlist.loctable
+loginwind   607 jaydeneatgood  txt       REG               1,15    305456 1152921500312198200 /System/Library/LoginPlugins/DisplayServices.loginPlugin/Contents/MacOS/DisplayServices
+loginwind   607 jaydeneatgood  txt       REG               1,15    193408 1152921500312198251 /System/Library/LoginPlugins/FSDisconnect.loginPlugin/Contents/MacOS/FSDisconnect
+loginwind   607 jaydeneatgood  txt       REG               1,15       110 1152921500312088344 /System/Library/CoreServices/SystemVersion.bundle/English.lproj/SystemVersion.strings
+loginwind   607 jaydeneatgood  txt       REG               1,15   2289328 1152921500312524246 /usr/lib/dyld
+loginwind   607 jaydeneatgood  txt       REG               1,15  33979312 1152921500312534754 /usr/share/icu/icudt76l.dat
+loginwind   607 jaydeneatgood  txt       REG               1,15    235024            44967790 /private/var/db/timezone/tz/2025b.1.0/icutz/icutz44l.dat
+loginwind   607 jaydeneatgood  txt       REG               1,15    139240 1152921500312088045 /System/Library/CoreServices/SystemAppearance.bundle/Contents/Resources/SystemAppearance.car
+loginwind   607 jaydeneatgood  txt       REG               1,15   7919192 1152921500312088006 /System/Library/CoreServices/SystemAppearance.bundle/Contents/Resources/Aqua.car
+loginwind   607 jaydeneatgood  txt       REG               1,15   2976648 1152921500312088034 /System/Library/CoreServices/SystemAppearance.bundle/Contents/Resources/FauxVibrantLight.car
+loginwind   607 jaydeneatgood  txt       REG               1,15   6222152 1152921500312088059 /System/Library/CoreServices/SystemAppearance.bundle/Contents/Resources/VibrantLight.car
+loginwind   607 jaydeneatgood  txt       REG               1,15    256960 1152921500312142578 /System/Library/Frameworks/OpenDirectory.framework/Versions/A/Frameworks/CFOpenDirectory.framework/Versions/A/Resources/Localizable.loctable
+loginwind   607 jaydeneatgood  txt       REG               1,15   1493020 1152921500312193459 /System/Library/Keyboard Layouts/AppleKeyboardLayouts.bundle/Contents/Resources/AppleKeyboardLayouts-L.dat
+loginwind   607 jaydeneatgood  txt       REG               1,15    242340 1152921500312193461 /System/Library/Keyboard Layouts/AppleKeyboardLayouts.bundle/Contents/Resources/InfoPlist.loctable
+loginwind   607 jaydeneatgood  txt       REG               1,15    248480 1152921500312524262 /usr/lib/libobjc-trampolines.dylib
+loginwind   607 jaydeneatgood  txt       REG               1,15    236664 1152921500312088038 /System/Library/CoreServices/SystemAppearance.bundle/Contents/Resources/FunctionRowAppearance.car
+loginwind   607 jaydeneatgood  txt       REG               1,15   1516176 1152921500312111880 /System/Library/Extensions/AGXMetal13_3.bundle/Contents/Resources/ds.g13g
+loginwind   607 jaydeneatgood  txt       REG               1,15    507129 1152921500312090663 /System/Library/CoreServices/loginwindow.app/Contents/Resources/loginwindow.loctable
+loginwind   607 jaydeneatgood  txt       REG               1,15    718976 1152921500312198136 /System/Library/LoginPlugins/BezelServices.loginPlugin/Contents/MacOS/BezelServices
+loginwind   607 jaydeneatgood  txt       REG               1,15      9346 1152921500312126768 /System/Library/Frameworks/AppKit.framework/Versions/C/Resources/Placeholders.loctable
+loginwind   607 jaydeneatgood  txt       REG               1,15    156112 1152921500312524289 /usr/lib/pam/pam_opendirectory.so.2
+loginwind   607 jaydeneatgood  txt       REG               1,15    110553 1152921500312301265 /System/Library/PrivateFrameworks/LoginUIKit.framework/Versions/A/Resources/Localizable.loctable
+loginwind   607 jaydeneatgood  txt       REG               1,15     50176 1152921500312126808 /System/Library/Frameworks/AppKit.framework/Versions/C/Resources/Undo.loctable
+loginwind   607 jaydeneatgood  txt       REG               1,15    180791 1152921500312126662 /System/Library/Frameworks/AppKit.framework/Versions/C/Resources/MenuCommands.loctable
+loginwind   607 jaydeneatgood  txt       REG               1,15    164880            48644266 /private/var/db/analyticsd/events.allowlist
+loginwind   607 jaydeneatgood  txt       REG               1,15     73240 1152921500312088030 /System/Library/CoreServices/SystemAppearance.bundle/Contents/Resources/FauxVibrantDark.car
+loginwind   607 jaydeneatgood  txt       REG               1,15   2369592 1152921500312124587 /System/Library/Fonts/Helvetica.ttc
+loginwind   607 jaydeneatgood  txt       REG               1,15     47574 1152921500312140247 /System/Library/Frameworks/LocalAuthentication.framework/Support/SharedUtils.framework/Versions/A/Resources/Shared.loctable
+loginwind   607 jaydeneatgood  txt       REG               1,15      6780 1152921500312190505 /System/Library/Input Methods/CharacterPalette.app/Contents/Resources/InfoPlist.loctable
+loginwind   607 jaydeneatgood  txt       REG               1,15      7200 1152921500312126563 /System/Library/Frameworks/AppKit.framework/Versions/C/Resources/Base.lproj/NSTextTouchBarItems.nib
+loginwind   607 jaydeneatgood  txt       REG               1,15     60672 1152921500312126580 /System/Library/Frameworks/AppKit.framework/Versions/C/Resources/Common.loctable
+loginwind   607 jaydeneatgood  txt       REG               1,15     11864 1152921500312126798 /System/Library/Frameworks/AppKit.framework/Versions/C/Resources/TextTouchBar.loctable
+loginwind   607 jaydeneatgood  txt       REG               1,15     13811 1152921500312301249 /System/Library/PrivateFrameworks/LoginUIKit.framework/Versions/A/Resources/LUI2PasswordHelpViewController.loctable
+loginwind   607 jaydeneatgood  txt       REG               1,15     10426 1152921500312300984 /System/Library/PrivateFrameworks/LoginUIKit.framework/Versions/A/Frameworks/LoginUICore.framework/Versions/A/Resources/Localizable.loctable
+loginwind   607 jaydeneatgood  txt       REG               1,15    265952 1152921500312088492 /System/Library/CoreServices/TextInputMenuCore.bundle/Contents/MacOS/TextInputMenuCore
+loginwind   607 jaydeneatgood  txt       REG               1,15   1393328 1152921500312126488 /System/Library/Frameworks/AppKit.framework/Versions/C/Resources/Assets.car
+loginwind   607 jaydeneatgood  txt       REG               1,15    862424 1152921500312260015 /System/Library/PrivateFrameworks/CoreWLANKit.framework/Versions/A/Resources/Assets.car
+loginwind   607 jaydeneatgood  txt       REG               1,15    138876            47939640 /System/Library/Caches/com.apple.IntlDataCache.le.kbdx
+loginwind   607 jaydeneatgood  txt       REG               1,15    218688 1152921500312124665 /System/Library/Fonts/SFNSMono.ttf
+loginwind   607 jaydeneatgood  txt       REG               1,15    294744 1152921500312301225 /System/Library/PrivateFrameworks/LoginUIKit.framework/Versions/A/Resources/Assets.car
+loginwind   607 jaydeneatgood  txt       REG               1,15  18572304 1152921500312111871 /System/Library/Extensions/AGXMetal13_3.bundle/Contents/MacOS/AGXMetal13_3
+loginwind   607 jaydeneatgood  txt       REG               1,15   8330740 1152921500312124661 /System/Library/Fonts/SFNS.ttf
+loginwind   607 jaydeneatgood  txt       REG               1,15   3397824 1152921500312088012 /System/Library/CoreServices/SystemAppearance.bundle/Contents/Resources/Assets.car
+loginwind   607 jaydeneatgood  txt       REG               1,15   7801576 1152921500312088018 /System/Library/CoreServices/SystemAppearance.bundle/Contents/Resources/DarkAqua.car
+loginwind   607 jaydeneatgood  txt       REG               1,15   6741096 1152921500312088049 /System/Library/CoreServices/SystemAppearance.bundle/Contents/Resources/VibrantDark.car
+loginwind   607 jaydeneatgood  txt       REG               1,15   1675796 1152921500312124547 /System/Library/Fonts/ADTNumeric.ttc
+loginwind   607 jaydeneatgood  txt       REG               1,15      4171 1152921500312191206 /System/Library/Input Methods/EmojiFunctionRowIM.app/Contents/PlugIns/EmojiFunctionRowIM_Extension.appex/Contents/Resources/InfoPlist.loctable
+loginwind   607 jaydeneatgood  txt       REG               1,15        85 1152921500311880858 /System/Library/PrivateFrameworks/BaseBoard.framework/Versions/A/Resources/InfoPlist.loctable
+loginwind   607 jaydeneatgood  txt       REG               1,15     29814 1152921500312088498 /System/Library/CoreServices/TextInputMenuCore.bundle/Contents/Resources/Localizable.loctable
+loginwind   607 jaydeneatgood  txt       REG               1,15      9170 1152921500312193049 /System/Library/Input Methods/VietnameseIM.app/Contents/PlugIns/VIM_Extension.appex/Contents/Resources/InfoPlist.loctable
+loginwind   607 jaydeneatgood  txt       REG               1,15     17587 1152921500312191743 /System/Library/Input Methods/KoreanIM.app/Contents/PlugIns/KIM_Extension.appex/Contents/Resources/InfoPlist.loctable
+loginwind   607 jaydeneatgood  txt       REG               1,15     22922 1152921500312126754 /System/Library/Frameworks/AppKit.framework/Versions/C/Resources/NSTextTouchBarItems.loctable
+loginwind   607 jaydeneatgood  txt       REG               1,15      6060 1152921500312189570 /System/Library/Input Methods/AinuIM.app/Contents/Resources/InfoPlist.loctable
+loginwind   607 jaydeneatgood  txt       REG               1,15     14855 1152921500312192115 /System/Library/Input Methods/SCIM.app/Contents/PlugIns/SCIM_Extension.appex/Contents/Resources/InfoPlist.loctable
+loginwind   607 jaydeneatgood  txt       REG               1,15     11570 1152921500312192731 /System/Library/Input Methods/TrackpadIM.app/Contents/PlugIns/TIM_Extension.appex/Contents/Resources/InfoPlist.loctable
+loginwind   607 jaydeneatgood  txt       REG               1,15     95176 1152921500312241983 /System/Library/PrivateFrameworks/BatteryUIKit.framework/Versions/A/Resources/Assets.car
+loginwind   607 jaydeneatgood  txt       REG               1,15     20236 1152921500312191285 /System/Library/Input Methods/JapaneseIM-KanaTyping.app/Contents/PlugIns/JapaneseIM-KanaTyping.appex/Contents/Resources/InfoPlist.loctable
+loginwind   607 jaydeneatgood  txt       REG               1,15      2426 1152921500312189505 /System/Library/Input Methods/50onPaletteServer.app/Contents/Resources/InfoPlist.loctable
+loginwind   607 jaydeneatgood  txt       REG               1,15      5168 1152921500312189635 /System/Library/Input Methods/Assistive Control.app/Contents/Resources/InfoPlist.loctable
+loginwind   607 jaydeneatgood  txt       REG               1,15      4570 1152921500312190593 /System/Library/Input Methods/DictationIM.app/Contents/Resources/InfoPlist.loctable
+loginwind   607 jaydeneatgood  txt       REG               1,15     21302 1152921500312191466 /System/Library/Input Methods/JapaneseIM-RomajiTyping.app/Contents/PlugIns/JapaneseIM-RomajiTyping.appex/Contents/Resources/InfoPlist.loctable
+loginwind   607 jaydeneatgood  txt       REG               1,15     11085 1152921500312192487 /System/Library/Input Methods/TYIM.app/Contents/PlugIns/TYIM_Extension.appex/Contents/Resources/InfoPlist.loctable
+loginwind   607 jaydeneatgood  txt       REG               1,15      5043 1152921500312192663 /System/Library/Input Methods/TamilIM.app/Contents/Resources/InfoPlist.loctable
+loginwind   607 jaydeneatgood  txt       REG               1,15     29976 1152921500312192912 /System/Library/Input Methods/TransliterationIM.app/Contents/PlugIns/TransliterationIM_Extension.appex/Contents/Resources/InfoPlist.loctable
+loginwind   607 jaydeneatgood  txt       REG               1,15     15037 1152921500312192298 /System/Library/Input Methods/TCIM.app/Contents/PlugIns/TCIM_Extension.appex/Contents/Resources/InfoPlist.loctable
+loginwind   607 jaydeneatgood  txt       REG               1,15   1013880 1152921500312124663 /System/Library/Fonts/SFNSItalic.ttf
+loginwind   607 jaydeneatgood  txt       REG               1,15    103334 1152921500312126431 /System/Library/Frameworks/AppKit.framework/Versions/C/Resources/Accessibility.loctable
+loginwind   607 jaydeneatgood  txt       REG               1,15    221826 1152921500312126433 /System/Library/Frameworks/AppKit.framework/Versions/C/Resources/AccessibilityImageDescriptions.loctable
+loginwind   607 jaydeneatgood  txt       REG               1,15   1742696 1152921500312124647 /System/Library/Fonts/SFCompact.ttf
+loginwind   607 jaydeneatgood  txt       REG               1,15     84386 1152921500312126804 /System/Library/Frameworks/AppKit.framework/Versions/C/Resources/TouchBar.loctable
+loginwind   607 jaydeneatgood  txt       REG               1,15 144496840 1152921500312322607 /System/Library/PrivateFrameworks/SFSymbols.framework/Versions/A/Resources/CoreGlyphs.bundle/Contents/Resources/Assets.car
+loginwind   607 jaydeneatgood    0r      CHR                3,2       0t0                 339 /dev/null
+loginwind   607 jaydeneatgood    1u      CHR                3,2     0t343                 339 /dev/null
+loginwind   607 jaydeneatgood    2u      CHR                3,2   0t61357                 339 /dev/null
+loginwind   607 jaydeneatgood    3u     unix 0x45f8251b42c0d94f       0t0                     ->0x1e28f9fa423e630c
+loginwind   607 jaydeneatgood    4r      REG               1,15   2383908 1152921500312182816 /System/Library/Frameworks/SceneKit.framework/Versions/A/Resources/default.metallib
+loginwind   607 jaydeneatgood    5r      REG               1,15   8685732 1152921500312234777 /System/Library/PrivateFrameworks/AvatarKit.framework/Versions/A/Resources/default.metallib
+distnoted   945 jaydeneatgood  cwd       DIR               1,15       704                   2 /
+distnoted   945 jaydeneatgood  txt       REG               1,15    291552 1152921500312526766 /usr/sbin/distnoted
+distnoted   945 jaydeneatgood  txt       REG               1,15     67392            47939519 /Library/Preferences/Logging/.plist-cache.W41TpPwh
+distnoted   945 jaydeneatgood  txt       REG               1,15   2289328 1152921500312524246 /usr/lib/dyld
+distnoted   945 jaydeneatgood    0r      CHR                3,2       0t0                 339 /dev/null
+distnoted   945 jaydeneatgood    1u      CHR                3,2       0t0                 339 /dev/null
+distnoted   945 jaydeneatgood    2u      CHR                3,2     0t165                 339 /dev/null
+distnoted   945 jaydeneatgood    3u     unix 0xd19de834751c5dba       0t0                     ->0x1e28f9fa423e630c
+cfprefsd    946 jaydeneatgood  cwd       DIR               1,15       704                   2 /
+cfprefsd    946 jaydeneatgood  txt       REG               1,15    135792 1152921500312526718 /usr/sbin/cfprefsd
+cfprefsd    946 jaydeneatgood  txt       REG               1,15     67392            47939519 /Library/Preferences/Logging/.plist-cache.W41TpPwh
+cfprefsd    946 jaydeneatgood  txt       REG               1,15   2289328 1152921500312524246 /usr/lib/dyld
+cfprefsd    946 jaydeneatgood    0r      CHR                3,2       0t0                 339 /dev/null
+cfprefsd    946 jaydeneatgood    1u      CHR                3,2       0t0                 339 /dev/null
+cfprefsd    946 jaydeneatgood    2u      CHR                3,2       0t0                 339 /dev/null
+cfprefsd    946 jaydeneatgood    3       DIR               1,15     15712              236412 /Users/jaydeneatgood/Library/Preferences
+UserEvent   952 jaydeneatgood  cwd       DIR               1,15       704                   2 /
+UserEvent   952 jaydeneatgood  txt       REG               1,15    178736 1152921500312525563 /usr/libexec/UserEventAgent
+UserEvent   952 jaydeneatgood  txt       REG               1,15     67392            47939519 /Library/Preferences/Logging/.plist-cache.W41TpPwh

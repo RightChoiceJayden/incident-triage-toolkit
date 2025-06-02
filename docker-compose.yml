@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+  aegisir:
+    build: .
+    ports:
+      - "5001:5001"
+    volumes:
+      - .:/app
+    working_dir: /app
+    env_file:
+      - .env
+    environment:
+      - SLACK_WEBHOOK_URL=${SLACK_WEBHOOK_URL}
+

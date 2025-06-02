@@ -1,19 +1,26 @@
 import os
 import requests
 from datetime import datetime
+from dotenv import load_dotenv
 
-SLACK_WEBHOOK_URL = os.getenv("SLACK_WEBHOOK_URL", "https://hooks.slack.com/services/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")
+# Load environment variables from .env file
+load_dotenv()
+
+# Get webhook from environment
+SLACK_WEBHOOK_URL = os.getenv("SLACK_WEBHOOK_URL")
 
 def send_slack_message(timestamp, cpu_summary, log_link=None):
+    if not SLACK_WEBHOOK_URL:
+        print("[Slack] Webhook URL not set.")
+        return
+
     message = f"*🚨 AegisIR Incident Triggered*\n"
     message += f"🕒 Timestamp: `{timestamp}`\n"
     message += f"🔥 Top CPU Process:\n```\n{cpu_summary}```\n"
     if log_link:
         message += f"📎 [View Logs]({log_link})"
 
-    payload = {
-        "text": message
-    }
+    payload = {"text": message}
 
     try:
         response = requests.post(SLACK_WEBHOOK_URL, json=payload)
@@ -25,7 +32,10 @@ def send_slack_message(timestamp, cpu_summary, log_link=None):
 if __name__ == "__main__":
     import sys
     if len(sys.argv) >= 3:
-        send_slack_message(sys.argv[1], sys.argv[2])
+        timestamp = sys.argv[1]
+        cpu_summary = sys.argv[2]
+        log_link = sys.argv[3] if len(sys.argv) > 3 else None
+        send_slack_message(timestamp, cpu_summary, log_link)
     else:
         print("[Slack] Missing arguments")
 

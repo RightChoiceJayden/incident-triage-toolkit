@@ -1,0 +1,8 @@
+Filesystem            Size  Used Avail Use% Mounted on
+overlay                59G   12G   45G  21% /
+tmpfs                  64M     0   64M   0% /dev
+shm                    64M     0   64M   0% /dev/shm
+/run/host_mark/Users  229G  213G   16G  94% /app/logs
+/dev/vda1              59G   12G   45G  21% /etc/hosts
+tmpfs                 2.0G     0  2.0G   0% /proc/scsi
+tmpfs                 2.0G     0  2.0G   0% /sys/firmware
