@@ -196,6 +196,4 @@ curl -X POST http://localhost:5001/alert
 
 ---
 
-## 📄 License
 
-MIT
