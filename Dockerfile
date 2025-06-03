@@ -4,6 +4,9 @@ FROM python:3.10-slim
 # Set the working directory
 WORKDIR /app
 
+# Set Python path so it recognizes aegisir as a module
+ENV PYTHONPATH=/app
+
 # Install dependencies required for shell scripts and system monitoring
 RUN apt-get update && apt-get install -y \
     procps \
@@ -23,9 +26,6 @@ COPY . .
 
 # Make sure the triage script is executable
 RUN chmod +x aegisir/triage.sh
-
-# Set environment variables (if needed, or handle with .env and docker-compose)
-# ENV SLACK_WEBHOOK_URL=...
 
 # Expose port Flask is running on
 EXPOSE 5001

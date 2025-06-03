@@ -1,0 +1,11 @@
+global:
+  scrape_interval: 15s
+
+scrape_configs:
+  - job_name: 'aegisir'
+    static_configs:
+      - targets: ['aegisir:5001']
+
+rule_files:
+  - /etc/prometheus/alert_rules.yml
+

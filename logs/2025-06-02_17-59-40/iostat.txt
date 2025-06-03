@@ -1,0 +1,18 @@
+Linux 6.10.14-linuxkit (aeeb8962cfb9) 	06/02/25 	_aarch64_	(8 CPU)
+
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          11.52    0.00    5.07    0.14    0.00   83.28
+
+Device            r/s     rkB/s   rrqm/s  %rrqm r_await rareq-sz     w/s     wkB/s   wrqm/s  %wrqm w_await wareq-sz     d/s     dkB/s   drqm/s  %drqm d_await dareq-sz     f/s f_await  aqu-sz  %util
+vda             25.03    528.44     1.64   6.13    0.51    21.11   26.58    693.51    49.02  64.84    1.60    26.09    1.87  10025.08     0.00   0.00    0.33  5363.07    8.84    0.36    0.06   1.25
+vdb              1.36     55.22     0.00   0.02    0.75    40.49    0.00      0.00     0.00   0.00    0.00     0.00    0.00      0.00     0.00   0.00    0.00     0.00    0.00    0.00    0.00   0.05
+
+
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           7.07    0.00    3.41    0.00    0.00   89.52
+
+Device            r/s     rkB/s   rrqm/s  %rrqm r_await rareq-sz     w/s     wkB/s   wrqm/s  %wrqm w_await wareq-sz     d/s     dkB/s   drqm/s  %drqm d_await dareq-sz     f/s f_await  aqu-sz  %util
+vda              0.00      0.00     0.00   0.00    0.00     0.00   25.00    104.00     7.00  21.88    0.24     4.16    0.00      0.00     0.00   0.00    0.00     0.00    9.00    0.11    0.01   0.20
+vdb              0.00      0.00     0.00   0.00    0.00     0.00    0.00      0.00     0.00   0.00    0.00     0.00    0.00      0.00     0.00   0.00    0.00     0.00    0.00    0.00    0.00   0.00
+
+
