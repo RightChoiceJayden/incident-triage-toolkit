@@ -1,0 +1,7 @@
+root         1  7.5  0.8 188676 32152 ?        Ssl  02:56   0:01 python3 aegisir/api/webhook.py
+root        11  4.1  0.0   4212  2688 ?        S    02:57   0:00 /bin/bash ./aegisir/triage.sh ./logs/2025-06-03_02-57-12
+root        18  0.0  0.0   4212  1616 ?        S    02:57   0:00 /bin/bash ./aegisir/triage.sh ./logs/2025-06-03_02-57-12
+root        17  0.0  0.0  19236  1412 ?        S    02:57   0:00 sort -nrk 3,3
+root        16  0.0  0.0   8436  3932 ?        R    02:57   0:00 ps aux
+root        10  0.0  0.0   2320  1344 ?        S    02:57   0:00 /bin/sh -c ./aegisir/triage.sh ./logs/2025-06-03_02-57-12
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND

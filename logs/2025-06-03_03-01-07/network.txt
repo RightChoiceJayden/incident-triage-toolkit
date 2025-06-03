@@ -1,0 +1,5 @@
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
+tcp        0      0 0.0.0.0:5001            0.0.0.0:*               LISTEN      1/python3           
+tcp        0      0 127.0.0.11:34861        0.0.0.0:*               LISTEN      -                   
+udp        0      0 127.0.0.11:42099        0.0.0.0:*                           -                   

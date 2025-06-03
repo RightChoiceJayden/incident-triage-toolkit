@@ -1,15 +1,26 @@
 services:
   aegisir:
     build: .
+    container_name: aegisir
     ports:
       - "5001:5001"
     volumes:
       - ./logs:/app/logs
     env_file:
       - .env
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5001/metrics"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    depends_on:
+      - alertmanager
+      - prometheus
 
   prometheus:
     image: prom/prometheus:latest
+    container_name: prometheus
     volumes:
       - ./aegisir/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
       - ./aegisir/prometheus/alert_rules.yml:/etc/prometheus/alert_rules.yml
@@ -17,13 +28,30 @@ services:
       - '--config.file=/etc/prometheus/prometheus.yml'
     ports:
       - "9090:9090"
+    restart: unless-stopped
 
   alertmanager:
     image: prom/alertmanager:latest
+    container_name: alertmanager
     volumes:
       - ./aegisir/prometheus/alertmanager.yml:/etc/alertmanager/alertmanager.yml
     command:
       - '--config.file=/etc/alertmanager/alertmanager.yml'
     ports:
       - "9093:9093"
+    restart: unless-stopped
 
+  nodeexporter:
+    image: prom/node-exporter:latest
+    container_name: nodeexporter
+    ports:
+      - "9100:9100"
+    volumes:
+      - /proc:/host/proc:ro
+      - /sys:/host/sys:ro
+      - /:/rootfs:ro
+    command:
+      - '--path.procfs=/host/proc'
+      - '--path.sysfs=/host/sys'
+      - '--path.rootfs=/rootfs'
+    restart: unless-stopped

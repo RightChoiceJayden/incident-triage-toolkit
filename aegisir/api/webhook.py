@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify, Response
+from flask import Flask, request, jsonify, Response, send_from_directory
 from datetime import datetime
 import subprocess
 import os
@@ -53,6 +53,10 @@ def receive_alert():
 @app.route('/metrics', methods=['GET'])
 def metrics():
     return Response(generate_latest(), mimetype=CONTENT_TYPE_LATEST)
+
+@app.route('/logs/<path:filename>', methods=['GET'])
+def get_log_file(filename):
+    return send_from_directory('logs', filename)
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5001)

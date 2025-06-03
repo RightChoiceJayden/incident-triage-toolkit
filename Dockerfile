@@ -17,17 +17,26 @@ RUN apt-get update && apt-get install -y \
     nano \
     && rm -rf /var/lib/apt/lists/*
 
-# Copy the requirements and install Python packages
+# Create non-root user
+RUN useradd -m appuser
+
+# Copy requirements and install Python packages
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy the full application source code into the container
+# Copy the entire project
 COPY . .
 
 # Make sure the triage script is executable
 RUN chmod +x aegisir/triage.sh
 
-# Expose port Flask is running on
+# Change ownership of app files to the non-root user
+RUN chown -R appuser:appuser /app
+
+# Switch to non-root user
+USER appuser
+
+# Expose the port Flask runs on
 EXPOSE 5001
 
 # Default command to run the Flask API
