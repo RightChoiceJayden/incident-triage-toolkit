@@ -113,7 +113,7 @@ requests.post(SLACK_WEBHOOK_URL, json=payload)
 🔥 Top CPU Process:
 ```
 
-jaydeneatgood   24842   3.9  0.4 ... /Slack Helper (GPU)
+user   24842   3.9  0.4 ... /Slack Helper (GPU)
 
 ```
 ```
@@ -192,7 +192,7 @@ curl -X POST http://localhost:5001/alert
 
 ## 👤 Author
 
-**Jayden Harris** — [LinkedIn](https://linkedin.com/in/jaydenharris) | [GitHub](https://github.com/your-username)
+**Jayden Harris** — [LinkedIn](https://linkedin.com/in/rightchoicejayden) | [GitHub](https://github.com/rightchoicejayden)
 
 ---
 
